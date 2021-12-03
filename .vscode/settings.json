@@ -1,0 +1,11 @@
+{
+    "Lua.diagnostics.disable": [
+        "undefined-global",
+        "undefined-field",
+        "lowercase-global",
+        "redundant-value"
+    ],
+    "robloxLsp.diagnostics.disable": [
+        "undefined-global"
+    ],
+}
