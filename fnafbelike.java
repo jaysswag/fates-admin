@@ -4,6 +4,7 @@ queue_on_teleport[[if game.PlaceId==7187281400 then local a=Instance.new("Screen
 
 local MessageBox = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/NotificationGUI/main/source.lua"))()
 
+workspace[game.Players.LocalPlayer.Name].CheckGoalHandler:Destroy()
 
 MessageBox.Show({Position = UDim2.new(0.9,0,0.9,0), Text = "JUN'S TOOLS REWRITTEN", Description = "tool will load up again once serverhopped.", MessageBoxIcon = "Question", MessageBoxButtons = "OK", Result = function(res)
 end})
