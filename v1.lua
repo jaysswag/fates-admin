@@ -46,12 +46,12 @@ local root = plr.Character.HumanoidRootPart
 
 
  local ball = game:GetService("Workspace").FootballField:FindFirstChild("SoccerBall")
-local team = plr.Character:FindFirstChild("TeamA") or plr.Character:FindFirstChild("TeamB")
+local team = plr.Character:FindFirstChild("Team970A") or plr.Character:FindFirstChild("TeamB")
 local Goal = false
 if team then
-if team.Name == "TeamA" then
+if team.Name == "Team970A" then
 Goal = game:GetService("Workspace").FootballField.DetectingGoalB
-elseif team.Name == "TeamB" then
+elseif team.Name == "Team970B" then
 Goal = game:GetService("Workspace").FootballField.DetectingGoalA
 end
 end
